@@ -1,0 +1,113 @@
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #7a7a7a;
+}
+header{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: #fffcc7;
+    border: 1px solid #000;
+}
+.logo {
+    width: 50%;
+    padding: 0.5em;
+    color: #7a7a7a;
+    
+}
+nav{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto; /*ustawianie*/
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    width: 25%;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+}
+section{
+    height: 600px;
+    width: 100%;
+    border: 1px solid #000;
+}
+.reklama{
+    width: 90%;
+    margin: auto;
+    border: 1px solid #000;
+    margin-top: 20px;
+    padding: 1em;
+    
+}
+.zdjecia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.obraz{
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.JZ{
+    text-align: right;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #000;
+}
+.kontakt{
+    background-color: #fffcc7;
+    padding: 1em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 15px;
+    width: 35%;
+    border: 1px solid #000;
+}
+.galeria{
+    background-color: #fffcc7;
+    padding: 1em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 15px;
+    width: 35%;
+    border: 1px solid #000;
+}
+.srodek{
+    width: 30%;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+button{
+    width: 50%;
+    margin-top: 10px;
+    background-color: white;
+}
+.copy{
+}
+
